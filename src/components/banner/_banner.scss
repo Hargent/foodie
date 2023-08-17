@@ -1,0 +1,57 @@
+@import "../../utils/button/button";
+.banner {
+	&__container {
+		width: 80%;
+		margin: auto;
+
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	&__description {
+		width: 100%;
+		font: {
+			size: 2.5rem;
+			family: Lora-medium;
+		}
+		text-align: left;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+
+		& > *:not(:first-child) {
+			margin-top: 1.25rem;
+		}
+		& > *:first-child {
+			margin-bottom: 2.25rem;
+		}
+	}
+	&__image {
+		&__container {
+			width: 100%;
+			overflow: hidden;
+			display: flex;
+			align-items: flex-end;
+		}
+		width: 80%;
+		border-radius: 50%;
+		margin: auto;
+
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+
+		& img {
+			width: 80%;
+			margin: auto;
+		}
+	}
+	&__buttons {
+		width: 50%;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

@@ -1,0 +1,42 @@
+.aux-about {
+	background: #fff;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 5rem 3rem;
+	&__container {
+		width: 90%;
+		padding: 5rem 0;
+		margin: auto;
+
+		display: flex;
+		align-items: flex-start;
+		// justify-content: space-between;
+		& > *:first-child {
+			margin-right: auto;
+		}
+	}
+	&__content {
+		width: 50%;
+		color: #000;
+		& h2 {
+			font: {
+				size: 5rem;
+			}
+		}
+		& p {
+			font: {
+				size: 2rem;
+			}
+		}
+	}
+
+	&__img {
+		width: 45%;
+		& > img {
+			width: 100%;
+		}
+	}
+}

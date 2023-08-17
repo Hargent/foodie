@@ -1,0 +1,25 @@
+* {
+	box-sizing: inherit;
+	padding: 0;
+	margin: 0;
+}
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+body {
+	box-sizing: inherit;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font: {
+		family: Lora;
+		weight: 400;
+	}
+	overflow-x: hidden;
+}
+#root {
+	height: 100%;
+}
+// Imports
+@import "./variables";
+@import "./app/app";

@@ -1,0 +1,5 @@
+1. logo
+2. font family
+3. icons
+4. images
+5. Add food sections

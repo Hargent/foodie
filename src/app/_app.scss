@@ -1,0 +1,10 @@
+.App {
+	&__container {
+		height: 100vh;
+		background-color: $color-black;
+		color: $light-green;
+	}
+}
+//IMPORTS
+@import "../components/header/header";
+@import "../pages/home/home";

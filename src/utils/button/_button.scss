@@ -1,0 +1,52 @@
+.button {
+	cursor: pointer;
+	width: 100%;
+	padding: 0.75rem 0.5rem;
+	border-radius: 5px;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+	border: none;
+	box-shadow: 0px 2px 2px 1px lighten($color: $dark-green, $amount: 50%);
+	text-transform: capitalize;
+	background-image: linear-gradient(
+		to bottom right,
+		$color-green,
+		$medium-green
+	);
+	color: $light-green;
+
+	&:hover {
+		box-shadow: none;
+		background-image: linear-gradient(
+			to bottom right,
+			$medium-green,
+			$dark-green
+		);
+		color: #c9eec4;
+	}
+}
+.anchor {
+	cursor: pointer;
+	width: 100%;
+	padding: 0.75rem 0.5rem;
+	border-radius: 5px;
+	text-align: center;
+	transition: all 0.5s ease-in-out;
+	border: none;
+	outline: none;
+	text-transform: capitalize;
+	box-shadow: none;
+
+	background-color: $color-black;
+	color: $light-green;
+
+	&:hover {
+		box-shadow: 0px 2px 2px 1px lighten($color: $dark-green, $amount: 50%);
+		background-image: linear-gradient(
+			to bottom right,
+			$medium-green,
+			$dark-green
+		);
+		color: #c9eec4;
+	}
+}

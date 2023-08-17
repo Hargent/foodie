@@ -1,0 +1,117 @@
+.header {
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1.25rem;
+		width: 100%;
+	}
+	&__logo {
+		&__container {
+			display: flex;
+			align-items: center;
+			padding: 2.5rem;
+			// height: 10%;
+			width: 15%;
+		}
+		width: 100%;
+	}
+	&__menu {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 2.5rem;
+		& > *:not(:last-child) {
+			margin-right: 1.25rem;
+		}
+		& > * {
+			color: transparent;
+
+			-moz-background-image: linear-gradient(
+				to right,
+				$color-green,
+				$dark-green
+			);
+			-webkit-background-image: linear-gradient(
+				to right,
+				$color-green,
+				$dark-green
+			);
+			background-image: linear-gradient(
+				to right,
+				$color-green,
+				$dark-green
+			);
+			-moz-background-clip: text;
+			-webkit-background-clip: text;
+			background-clip: text;
+		}
+	}
+	&__status {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 2.5rem;
+		& > *:not(:last-child) {
+			margin-right: 1.25rem;
+		}
+		& > * {
+			color: transparent;
+
+			-moz-background-image: linear-gradient(
+				to right,
+				$light-green,
+				$medium-green
+			);
+			-webkit-background-image: linear-gradient(
+				to right,
+				$light-green,
+				$medium-green
+			);
+			background-image: linear-gradient(
+				to right,
+				$light-green,
+				$medium-green
+			);
+			-moz-background-clip: text;
+			-webkit-background-clip: text;
+			background-clip: text;
+		}
+	}
+	&__cart {
+		width: 2rem;
+		height: 2rem;
+		fill: $color-green;
+	}
+	&__link {
+		text-decoration: none;
+		cursor: pointer;
+		font: {
+			size: 1.25rem;
+			weight: 400;
+			family: Lora-bold;
+		}
+		&:visited {
+			color: transparent;
+
+			-moz-background-image: linear-gradient(
+				to right,
+				$color-green,
+				$dark-green
+			);
+			-webkit-background-image: linear-gradient(
+				to right,
+				$color-green,
+				$dark-green
+			);
+			background-image: linear-gradient(
+				to right,
+				$color-green,
+				$dark-green
+			);
+			-moz-background-clip: text;
+			-webkit-background-clip: text;
+			background-clip: text;
+		}
+	}
+}
